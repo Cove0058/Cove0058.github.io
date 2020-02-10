@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<nav>
 	<title>Assignment 2</title>
-</nav>
 </head>
 <body>
 	<h1>Assignment 2</h1>
+      <!--This is a table-->
 		<h2>Employee List</h2>
+      <!--When I tried to put the CSS I was told that I did not need it, it that it could be deleted. I am not sure why-->
+
                   <table border="1">
 			<thead> 
 			<tr>
@@ -38,25 +39,35 @@
             	<td>rob@fakemail.com</td>
             </tr>
             </tbody>
+            <tfoot>
+            <tr>
+                  <td colspan="3">
+                  all of the above are division heads
+                  </td>
+                  <!--I Ran into issues at this point- I was struggling to expand this row -->
+            </tr>
+            </tfoot>
             </table>
 	<h3>Animals</h3>
-		<img src="elephant.jpg" alt="image 1" width="300" height="200">
-            <figcaption>this is an Elephant</figcaption>
-            <br>
-            <img src="lion.jpg" alt="image 2" width="300" height="200">
-            <figcaption>this is a Lion</figcaption>
-            <br>
-            <img src="snake.jpg" alt="image 3" width="300" height="200">
-            <figcaption>this is a Snake</figcaption>
-            <br>
-            <img src="whale.jpg" alt="image 4" width="300" height="200">
-            <figcaption>this is a Whale</figcaption>
-            <br>
-            <img src="hawk.jpg" alt="image 5" width="300" height="200">
-            <figcaption>this is a Hawk</figcaption>
-            <br>
+      <!--These are images of animals-->
+		<figure> <img src="elephant.jpg" alt="image 1" width="300" height="200">
+            <figcaption>this is an Elephant</figcaption></figure>
+            
+            <figure><img src="lion.jpg" alt="image 2" width="300" height="200">
+            <figcaption>this is a Lion</figcaption></figure>
+      
+            <figure><img src="snake.jpg" alt="image 3" width="300" height="200">
+            <figcaption>this is a Snake</figcaption></figure>
+            
+            <figure><img src="whale.jpg" alt="image 4" width="300" height="200">
+            <figcaption>this is a Whale</figcaption></figure>
+            
+            <figure><img src="hawk.jpg" alt="image 5" width="300" height="200">
+            <figcaption>this is a Hawk</figcaption></figure>
+            
       <h3>HTML Entities</h3>
-            <nbsp>Non Breaking Space:
+      <!-- These are symbols-->
+           <p>Non breaking space: &nbsp;</p> 
            <p>Ampersand : &#38;</p>
            <p>Pound : &#163; </p>
            <p>Copyright : &#169;</p>
@@ -67,14 +78,17 @@
                   <dt>Milk</dt>
                         <dd>-white cold drink</dd>
                   <dt>HTML</dt>
+                        <dd>Hypertext Markup Language</dd>
                   <dt>CSS</dt>
+                        <dd>cascading style sheets</dd>
             </dl>
                   <details>
+                        <!-- these are details-->
                         <summary>What is a mobile phone?</summary>
                               <p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.</p>
                   </details>
    
-                    <h3>Hidden Comments </h3>
+      <h3>Hidden Comments </h3>
                    <!--this is a test --> 
 
 </body>
