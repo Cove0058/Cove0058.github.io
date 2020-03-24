@@ -30,10 +30,6 @@ body {
 	margin-right: auto;
 }
 
-/*.content1{
-	background-color: #59EDCB;
-}*/
-
 #header{
 	background-color: #85e085;
 	float: right;
@@ -45,6 +41,8 @@ body {
 	list-style-type: none;
 }
 
+/*this is CSS for the header text*/
+
 #header_img{
 	background-color: #85e085;
 	float: left;
@@ -52,11 +50,7 @@ body {
 	width: 25%;
 }
 
-/*#content2{
-	clear: both;
-	width: 100%;
-	margin-bottom: 10px;
-
+/*this is CSS for the logo
 }*/
 
 
