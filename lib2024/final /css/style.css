@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* This is where the @font-face rule is applied */
+@font-face {
+  font-family: Action;
+  src: url(../fonts/Action-Man/Action_Man.ttf);
+}
+
+/* clearfix is applied here*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Main content size limit */
+#main-container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Logo font defined using the 'Font-Face' technique */
+
+.site-header{
+	font-family: 'Action', Fallback, san-serif;
+	font-size: 300%;
+	transition: color 1s;
+}
+
+/* transition #1 - log turns red when hover over */
+.site-header:hover{
+	color: red;
+}
+
+/* Header links */
+#menu a {
+	text-decoration: none;
+	color:black;
+}
+
+.main-nav-container{
+	background-color: #6da197;
+	padding: 2%;
+	
+}
+
+
+/* Main Container of page */
+/* Background image is defiend here */
+/* Google fonts used here. This sets the font type for the main content */
+.container {
+	background-image: url(../img/double-bubble-outline.png);
+	padding: 2%;
+	font-family: 'Poppins'; Fallback; sans-serif;
+ }
+ 
+ .site-header {
+ 	color: #6da197;
+ 	padding: 1%;
+ }
+ 
+ /* set key color that applies to all 'h2' headings */
+ h2 {
+ 	color: #6da197;
+ }
+ 
+ /* Makes the navigation list become horizontal */
+ ul#menu li {
+  	display:inline;
+}
+ 
+/* Main section content */  
+#about {
+	clear: both;
+ }
+ 
+ .about-text {
+  	max-width: 70%;
+  	float: left;
+ }
+ 
+ .about-image {
+ 	float: right;
+ 	width: 29%;
+ }
+ 
+#image{
+	height: auto;
+	align-items: right;
+	width:100%;
+}
+ 
+table {
+  	width: 90%;
+  	margin: 20px auto;
+  	text-align: center;
+  	border: solid 1px;
+}
+ 
+.schedule {
+ 	clear: both;
+ 	width: 100%;
+  }
+ 
+ /* applies to all 'th' headings in schedule*/
+th {
+ 	color: #6da197;
+ 	border: solid 1px;
+ 	border-color: black;
+ 	background-color: white;
+ }
+
+  /* applies to all 'td' headings in schedule*/
+td {
+ 	color: black;
+ 	border: solid 1px;
+ }
+
+/* colouring the rows on the table, so that to odd numbered rows are light grey */
+tr:nth-child(odd){
+	background: #cfd4d1;
+}
+ 
+ /* This is the text for the "Edit Profile" section*/
+ #entry{
+ 	 	 	float: left;
+ 	 		width:30%;
+ }
+ 
+ #submit {
+ transition: color 1s, background-color 1s;
+}
+/* Transition#2 - Submit button becomes black and the text is white, up hover over */
+
+#submit:hover{
+	background-color: black;
+	color: white;
+}
+	
+ }
+
+ .form-entry {
+ }
+   
+ #profile {
+ }
+ 
+ 
+  /* This is the text for the "Profile Info" section*/
+
+#results {
+		float: right;
+	 	width: 15%;
+ 	}
+ 
+#results-container{
+	 	background-color: white;
+	 	box-shadow: 10px 10px 8px #888888;
+	 	text-align: center;
+	}
+ 
+.image-center {
+	  display: block;
+	  margin-left: auto; 
+	  margin-right: auto;
+  }
+
+ 
+ /* Everything below this point handles the footer section of the page */
+
+.footer {
+	clear: both;
+	padding: 9%;
+	background-color: #757575;
+ }
+ 
+ /* applies to all 'h4' headings */
+ h4 {
+ 	color: white;
+ }
+ 
+.footer-links {
+ 	margin: 1%; 
+ 	text-align: center;
+ 	width: 33%;
+  	float: left;
+ }
+ 
+ /* Makes the Follow Us icons become horizontal */
+ .icon {
+ 	display: inline-block; 
+ }
+
+ .footer-follow {
+	margin: 1%;
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+ 
+ .footer-address {
+ 	color: white;
+ 	margin: 1%;
+ 	text-align: center;
+ 	width: 33%;
+ 	float: left;
+ }
+ 
+ 

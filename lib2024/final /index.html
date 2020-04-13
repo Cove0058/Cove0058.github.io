@@ -1,49 +1,254 @@
 <!DOCTYPE html>
-<head>
-	<title>Assignment 3</title>
-</head>
-<body>
-	<div>
-	<label for="name" class="contact details">Name</label> 
-		<input type="text" name="First Name" id="name" >
-	</div>
-	<div>
-		<label for="email">Email</label>
-			<input type="email" name="email" id="email">
-	</div>
-	<div>
-		<label for="Adress">Adress</label>
-			<input type="text" name="Adress" id="Adress" >
-	</div>
-	<div>
-		<label for="City"></label>
-			<imput type="text" name="city" id="city" value="city">
-	</div>
-	<div>
-		<label for="Province">Province</label>
-			<select id="Province" name="Province">
-				<optgroup label="Province">
-					<option value="Ontario">Ontario</option>
-					<option value="Quebec">Quebec</option>
-					<option value="British Columbia">British Columbia</option>
-					<option value="Prince Edward Island">Prince Edward Island</option>
-					<option value="Nova Socia">Nova Socia</option>
-					<option value="New Brunswick">New Brunswick</option>
-					<option value="Nunavut">Nunavut</option>
-					<option value="Yukon">Yukon</option>
-					<option value="Alberta">Alberta</option>
-					<option value="Manitoba">Manitoba</option>
-					<option value="Saskatchewan">Saskatchewan</option>
+<html>
+    <head>
+		<title>Jessica Coventry</title>	
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<script src="https://kit.fontawesome.com/0b17a8e728.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
 
-
-				</optgroup>
-			</select>
+	<div id="main-container" >
+<!-- From week 11 -->
+	<div class="overlay-container loader-container">
+		<div class="loader"></div>
 	</div>
-	<div>
-	<label for="name">Postal Code </label> 
-		<input type="text" name="First Name" id="name" >
-	</div>
-	
+<!-- END -->
 
-	<button type="submit">Submit</button>
-</body>
+        <div id="header" class="header">
+          <header class="site-header">
+           <h1>MY LOGO</h1>
+           </header>
+           <br>
+      
+       
+        <nav class="main-nav-container desktop-nav">
+			<ul id="menu">
+				<li>
+					        <a href="contact-us.html">&ensp;Home&ensp;</a> 
+				    </li>
+				<li>
+					        <a href="#about"> &ensp;About&ensp;</a>
+		            </li>
+				<li>
+							<a href="#schedule">&ensp;Schedule&ensp;</a>
+				    </li>
+				<li>
+							<a href="history.html">&ensp;Portfolio&ensp;</a>
+				    </li>
+				<li>
+							<a href="#footer">&ensp;Contact&ensp;</a>
+				    </li>
+			</ul>
+		</nav>
+        </div>
+  
+  
+  
+  
+        <div id="container" class="container">
+        <div id="about">
+          <h2 id="about-title">ABOUT</h2>
+          <br>
+            <div class="about-text">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc. At in tellus integer feugiat scelerisque varius morbi. Sagittis orci a scelerisque purus semper eget. Dictumst vestibulum rhoncus est pellentesque elit. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Sit amet nisl purus in mollis nunc sed. Ornare aenean euismod elementum nisi quis eleifend. Nulla pharetra diam sit amet nisl suscipit adipiscing. Eu feugiat pretium nibh ipsum consequat.</p>
+                 <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc. At in tellus integer feugiat scelerisque varius morbi. Sagittis orci a scelerisque purus semper eget. Dictumst vestibulum rhoncus est pellentesque elit. </p>
+            </div>
+            <div class="about-image">
+                <img id="image" src="img/image-1.jpg" alt="Image 1" width="300"  height="200">
+            </div>
+          </div>
+  <br>
+    <div id="schedule" class="schedule">
+    	<br> 
+    	<h2 id="schedule-title">SCHEDULE</h2>
+      <table>
+        <thead>
+          <tr>
+      	    <th>Time</th>
+            <th>Monday</th>
+       	    <th>Tuesday</th>
+       	    <th>Wednesday</th>
+       	    <th>Thursday</th>
+            <th>Friday</th>      	
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          	<td>09:00 - 11:00</td>
+          	<td>Communications 1</td>
+          	<td>Client Services</td>
+          	<td>Special Collections</td>
+          	<td>Directed Research Seminar</td>
+          	<td>Client Services</td>
+          </tr>
+          <tr>
+          	<td>11:00 - 12:30</td>
+          	<td>Reference</td>
+          	<td>Internet App</td>
+          	<td>Library Software</td>
+          	<td>French</td>
+          	<td>Reference</td>
+          </tr>
+          <tr>
+          	<td>14:00 - 15:00</td>
+          	<td>Acquisitions</td>
+          	<td>General Elective</td>
+          	<td>Marketing</td>
+          	<td>Emerging Library Tech</td>
+          	<td>Library Software</td>
+          </tr>
+          <tr>
+          	<td>15:30 - 17:30</td>
+          	<td>French</td>
+          	<td>French</td>
+          	<td>Acquisitions</td>
+          	<td>Subject Analysis</td>
+          	<td>Internet App</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+<br>
+    <section class="form-value-transfer clearfix">
+        <div id="entry">
+            <h2 id="edit-title">EDIT PROFILE</h2>
+		<br>
+			<div id="form-entry" class="form-container">
+				<form id="form" method="post" action="submit.php">
+            	     <label for="name">Name</label>
+            	     <input type="text" name="name" id="name" placeholder="e.g. John Doe" required>
+		        <br>
+		            <label for="email">Email</label>
+			        <input type="email" name="email" id="email" placeholder="e.g. johnDoe@email.com" required>
+		        <br>
+		            <label for="address">Address</label>
+			        <input type="text" name="address" id="address" placeholder="Please add your address" required>
+		        <br>
+		            <label for="city">City</label>
+			        <input type="text" name="city" id="city" placeholder="Please add your city" required>
+		        <br>
+		            <label for="province">Province</label>
+			            <select id="province" name="province" required>
+				            <option value=""> - Select - </option>
+				            <option value="ON">Ontario</option>
+				            <option value="QC">Quebec</option>
+				            <option value="BC">British Columbia</option>
+				            <option value="PE">Prince Edward Island</option>
+				            <option value="NS">Nova Scotia</option>
+				            <option value="NB">New Brunswick</option>
+				            <option value="NU">Nunavut</option>
+				            <option value="YT">Yukon</option>
+				            <option value="AB">Alberta</option>			
+				            <option value="MB">Manitoba</option>
+				            <option value="SK">Saskatchewan</option>
+			            </select>
+	            <br>
+	                <label for="name">Postal Code </label> 
+	                    <input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postcode" id="postcode" placeholder="A0A 0A0">
+	            <br>
+	             <!-- <input type="button" onclick="myFunction()" value="Submit"> -->
+	            <button id="submit" type="submit">Submit</button>
+				</form>
+				</div>
+				</div>
+				
+				<script>
+                            function myFunction() {
+                            document.getElementById("form").submit();
+                            }
+                </script>
+				
+				
+
+				<div id="results" class="results">
+					<h2 id="info-title">PROFILE INFO</h2>
+					<br>
+					<div id="results-container" class="results-container">
+					<img src="img/logo.png" alt="logo" width="100"  height="80" class="image-center">
+                        <p> Name: <span id="name_result"></span></p>
+                        <p> Email: <a href="#" id="email_result"></a></p>
+                        <p> Address: <span id="address_result"></span></p>
+                        <p> City: <span id="city_result"></span></p>
+                        <p> Province: <span id="province_result"></span></p>
+                       <p> Postal Code: <span id="postcode_result"></span></p>
+                       <br>
+                       <i class="far fa-envelope" style="font-size:200%;"></i>
+				    </div>
+				</div>
+			</section>
+
+    </div>
+    </div>
+ 
+
+    <footer class="footer" id="footer">
+     <!-- <div id="footer-container"> -->
+        <section class="footer-links" id="footer-links">
+          <h4>QUICK LINKS</h4>
+          <br>
+		    <nav>
+		      <ul>
+		        <li>
+		          <a href="schedule.html">Schedule</a>
+		        </li>
+		        <li>
+		          <a href="about.html">About</a>
+		        </li>
+		        <li>
+		          <a href="portfolio.html">Portfolio</a>
+		        </li>
+		        <li>
+		          <a href="contact.html">Contact</a>
+		        </li>
+		      </ul>
+		    </nav>
+        </section>
+        
+        
+        
+		        <section class="footer-follow">
+                    <h4>FOLLOW US</h4>
+                    <br>
+                    <nav>
+                    <div class="icon">
+                        <ul id="follow">
+                             
+                            <li class="facebook icon">
+                                <a href="http://facebook.com">
+                                    <i class="fab fa-facebook-square" style="font-size:200%;"></i></a>			
+                            </li>
+                           <li class="twitter icon">
+                           		<a href="http://twitter.com">
+                                    <i class="fab fa-twitter-square" style="font-size:200%;"></i></a>
+                            </li>
+                            <li class="youtube icon">
+                                <a href="http://youtube.com">
+                                <i class="fab fa-youtube-square" style="font-size:200%;"></i></a> 
+                            </li>
+          
+                        </ul>
+                        </div>
+                    </nav> 
+                </section>
+                
+                
+                
+                <section class="footer-address">
+                    <h4>ADDRESS</h4>
+                    <br>
+  			            <p>1385 Woodroffe Ave.</p>
+			            <p>Nepean, On K2G 1V8</p>
+			            <p>Canada</p>
+                </section>
+        </footer>
+  
+        <!-- footer end -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	    <script src="js/script.js"></script>
+    </body>
+</html>

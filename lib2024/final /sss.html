@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Style Schema</title>
+</head>
+<body>
+	<h1>Simple Style Schema</h1>
+
+	<h2>Target Screen:</h2>
+	<p>Desktop</p>
+
+	<h2>Prototype image link </h2>
+	<a href="./img/final-mockup.jpg">./img/final-mockup.jpg</a>
+
+	<h2>Dimensions</h2>
+ 	<table id="Dimensions">
+ 		<tr>
+ 			<th>Element</th>
+ 			<th>Width</th>
+ 			<th>Height</th>
+ 			<th>Parent</th>
+ 		</tr>
+ 		<tr>
+ 			<td>#main-container</td>
+ 			<td>100 %</td>
+ 			<td>auto</td>
+ 			<td>N/A</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.overlay-container</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#main-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.loader</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>.overlay-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>#header</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#main-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.site-header</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#header</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.main-nav-container</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#main-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>#menu</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>.main-nav-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.container</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#main-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>#about</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>.container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.about-text</td>
+ 			<td>70%</td>
+ 			<td>auto</td>
+ 			<td>#about</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.about-image</td>
+ 			<td>29%</td>
+ 			<td>auto</td>
+ 			<td>#about</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.schedule</td>
+ 			<td>100%</td>
+ 			<td>auto</td>
+ 			<td>.container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.form-value-transfer</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#main-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>#entry</td>
+ 			<td>30%</td>
+ 			<td>auto</td>
+ 			<td>.form-value-transfer</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.form-entry</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#entry</td>
+ 		</tr>
+ 		<tr>
+ 			<td>#results</td>
+ 			<td>15%</td>
+ 			<td>auto</td>
+ 			<td>.form-value-transfer</td>
+ 		</tr>
+ 		<tr>
+ 			<td>#results-container</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#results</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.footer</td>
+ 			<td>auto</td>
+ 			<td>auto</td>
+ 			<td>#main-container</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.footer-links</td>
+ 			<td>33%</td>
+ 			<td>auto</td>
+ 			<td>.footer</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.footer-follow</td>
+ 			<td>25%</td>
+ 			<td>auto</td>
+ 			<td>.footer</td>
+ 		</tr>
+ 		<tr>
+ 			<td>.footer-address</td>
+ 			<td>33%</td>
+ 			<td>auto</td>
+ 			<td>.footer</td>
+ 		</tr>
+ 		
+ 		  	</table>
+ 	<h2>Colors</h2>
+ 	
+ 	<table id="color">
+ 		<tr>
+ 			<th>Color</th>
+ 			<th>Used For</th>
+ 			<th>Used As</th>
+ 			<th>Hex Value</th>
+ 			<th>RGB Values</th>
+ 			<th>Opacity</th>
+ 		</tr>
+ 		<tr>
+ 			<td>Red</td>
+ 			<td>Font</td>
+ 			<td>Logo transition colour when hover over</td>
+ 			<td>#ff1303</td>
+ 			<td>255,19,3</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Black</td>
+ 			<td>Font</td>
+ 			<td>Nav text font colour</td>
+ 			<td>#080808</td>
+ 			<td>8,8,8</td>
+ 			<td>100%</td>
+ 		</tr>
+        <tr>
+ 			<td>Teal</td>
+ 			<td>Accent</td>
+ 			<td>Background Colour Main Nav area</td>
+ 			<td>#6da197</td>
+ 			<td>109,161,151</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Teal</td>
+ 			<td>Accent</td>
+ 			<td>site-header</td>
+ 			<td>#6da197</td>
+ 			<td>109,161,151</td>
+ 			<td>100%</td>
+ 		</tr>
+        <tr>
+ 			<td>Teal</td>
+ 			<td>Font</td>
+ 			<td>Heading text (H2) Colour</td>
+ 			<td>#6da197</td>
+ 			<td>109,161,151</td>
+ 			<td>100%</td>
+ 		</tr>
+        <tr>
+ 			<td>Teal</td>
+ 			<td>Font</td>
+ 			<td>Heading Text in Schedule Table</td>
+ 			<td>#6da197</td>
+ 			<td>109,161,151</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Black</td>
+ 			<td>Line</td>
+ 			<td>Table Border Colour</td>
+ 			<td>#080808</td>
+ 			<td>8,8,8</td>
+ 			<td>100%</td>
+ 		</tr>
+        <tr>
+ 			<td>White</td>
+ 			<td>Accent</td>
+ 			<td>Table background colour</td>
+ 			<td>#ffffff</td>
+ 			<td>255,255,255</td>
+ 			<td>100%</td>
+ 		</tr>
+        <tr>
+ 			<td>Black</td>
+ 			<td>Font</td>
+ 			<td>Table data text colour</td>
+ 			<td>#080808</td>
+ 			<td>8,8,8</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Black</td>
+ 			<td>Accent</td>
+ 			<td>Submit Button Colour with Hover Over</td>
+ 			<td>#080808</td>
+ 			<td>8,8,8</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>White</td>
+ 			<td>Font</td>
+ 			<td>Button Font Colour with Hover Over</td>
+ 			<td>#ffffff</td>
+ 			<td>255,255,255</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>White</td>
+ 			<td>Accent</td>
+ 			<td>'Profile Info' container background colour</td>
+ 			<td>#ffffff</td>
+ 			<td>255,255,255</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Grey</td>
+ 			<td>Accent</td>
+ 			<td>'Profile Info' container shadow colour</td>
+ 			<td>#888888</td>
+ 			<td>136,136,136</td>
+ 			<td>100%</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Grey</td>
+ 			<td>Accent</td>
+ 			<td>Background colour in footer section</td>
+ 			<td>#757575</td>
+ 			<td>117,117,117</td>
+ 			<td>100%</td>
+ 		</tr>
+<tr>
+ 			<td>White</td>
+ 			<td>Font</td>
+ 			<td>text in footer section</td>
+ 			<td>#ffffff</td>
+ 			<td>255,255,255</td>
+ 			<td>100%</td>
+ 		</tr>
+
+
+
+
+
+
+
+ 	</table>
+
+ 	<h2>Background</h2>
+ 	<div>
+ 		<ul>
+ 			<li> <a href="https://www.toptal.com/designers/subtlepatterns/double-bubble-outline-pattern/">Background</a> </li>
+ 			<li>Style: Double Bubble Outline Pattern</li>
+ 		</ul>
+
+ 	</div>
+
+
+</body>
+</html>
